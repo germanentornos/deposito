@@ -11,7 +11,7 @@
  * @author IES Seveero Ochoa Team
  * @version 1.0
  *
- */
+ */ 
 public class DepositoCombustible {
 
     private double depMax;
