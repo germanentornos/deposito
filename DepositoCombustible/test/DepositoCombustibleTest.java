@@ -36,7 +36,7 @@ public class DepositoCombustibleTest {
 	}
 
 	@Test
-	public void testEstaVacio() {				// sí
+	public void testEstaVacio() {				
 		
 		boolean depositoMin = dc.estaVacio();
 		assertFalse(depositoMin);
