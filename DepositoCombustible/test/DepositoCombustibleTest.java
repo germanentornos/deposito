@@ -20,11 +20,6 @@ public class DepositoCombustibleTest {
 	}
 
 	@Test
-	public void testDepositoCombustible() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testGetDepositoNivel() {		
 		
 		double depositoNivel = dc.getDepositoNivel();
@@ -53,21 +48,6 @@ public class DepositoCombustibleTest {
 
 		double mitadDeposito = dc.getDepositoMax() / 2;
 		assertEquals(mitadDeposito, dc.getDepositoNivel(), 0.1);
-	}
-
-	@Test
-	public void testEstaLleno() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testFill() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testConsumir() {
-		fail("Not yet implemented");
 	}
 
 }
